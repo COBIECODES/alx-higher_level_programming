@@ -50,6 +50,7 @@ Completion of this source code.
 10. Linked list cycle
 
 10-check_cycle.c: C function that checks if a linked list contains a cycle.
+B
 Returns 0 if there is no cycle and 1 if there is.
 Helper files:
 linked_lists.c: C functions handling linked lists for testing 10-check_cycle.c (provided by Holberton School).

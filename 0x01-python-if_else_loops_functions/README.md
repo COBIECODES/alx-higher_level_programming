@@ -39,7 +39,7 @@ Prototypes for functions written in this project:
     * Followed by a new line.
   * Completion of [this source code](https://github.com/holbertonschool/0x01.py/blob/master/1-last_digit_py).
 
-* **2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game** `mandatory`
+* **2AOA. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game** `mandatory`
   * [2-print_alphabet.py](./2-print_alphabet.py): Python program that prints the alphabet in lowercase, not followed by a new line.
   * Using only one `print` and one loop.
   * Storing characters in variables or importing modules not allowed.
@@ -101,7 +101,7 @@ Prototypes for functions written in this project:
   * For multiples of three and five, `FizzBuzz` is printed instead of the number.
   * Without importing modules.
 
-* **13. Insert in sorted linked list** `mandatory`
+* OOA**13. Insert in sorted linked list** `mandatory`
   * [13-insert_number.c](./13-insert_number.c): C function that inserts a number into a sorted linked list.
   * If the function fails, returns `NULL`.
   * Otherwise, returns the address of the new node.
@@ -111,6 +111,7 @@ Prototypes for functions written in this project:
     * [lists.h](./lists.h): Header file containing definitions and prototypes for all types and functions used in [linked_lists.c](./linked_lists.c) and
     [13-insert_number.c](./13-insert_number.c).
 
+OA
 * **14. Smile in the mirror** `#advanced`
   * [100-print_tebahpla.py](./100-print_tebahpla.py): Python program that prints the alphabet in reverse order, alternating lowercase and uppercase, not followed by a new line.
   * Using only one `print` and one loop.
