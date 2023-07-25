@@ -7,7 +7,7 @@ const url = process.argv[2];
 request.get(url, { json: true }, (error, response, body) => {
   if (error) {
     console.log(error);
-    return;
+i    return;
   }
 
   const tasksCompleted = {};
@@ -20,9 +20,3 @@ request.get(url, { json: true }, (error, response, body) => {
       }
     }
   });
-
-  // Print users with completed tasks
-  Object.entries(tasksCompleted).forEach(([userId, count]) => {
-    console.log(`User ID ${userId}: ${count} completed task(s)`);
-  });
-});
