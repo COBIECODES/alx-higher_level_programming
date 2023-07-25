@@ -1,8 +1,7 @@
 #!/usr/bin/node
 
-// Write a script that computes the number of tasks completed by user id.
-
 const request = require('request');
+
 const url = process.argv[2];
 
 request.get(url, { json: true }, (error, response, body) => {
@@ -21,5 +20,10 @@ request.get(url, { json: true }, (error, response, body) => {
       }
     }
   });
-  console.log(tasksCompleted);
+
+  // Print users with completed tasks
+  Object.entries(tasksCompleted).forEach(([userId, count]) => {
+    console.log(`User ID ${userId}: ${count} completed task(s)`);
+  });
 });
+
