@@ -26,4 +26,3 @@ request.get(url, { json: true }, (error, response, body) => {
     console.log(`User ID ${userId}: ${count} completed task(s)`);
   });
 });
-
